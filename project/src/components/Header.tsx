@@ -67,10 +67,14 @@ const Header: React.FC = () => {
 
           {/* Resume Button */}
           <div className="hidden md:flex">
-            <button className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105">
+            <a
+              href="/src/assets/Ashutosh_Shrungare_DevOps_CV.pdf"
+              download="Ashutosh_Shrungare_DevOps_CV.pdf"
+              className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105"
+            >
               <Download size={16} />
               <span>Resume</span>
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,10 +98,14 @@ const Header: React.FC = () => {
                 {item.name}
               </button>
             ))}
-            <button className="w-full mt-4 flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full">
+            <a
+              href="/src/assets/Ashutosh_Shrungare_DevOps_CV.pdf"
+              download="Ashutosh_Shrungare_DevOps_CV.pdf"
+              className="w-full mt-4 flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full"
+            >
               <Download size={16} />
               <span>Resume</span>
-            </button>
+            </a>
           </div>
         )}
       </div>

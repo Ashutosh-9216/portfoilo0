@@ -169,7 +169,7 @@ const Contact: React.FC = () => {
                   <a href="https://github.com/Ashutosh-9216" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-500/20 hover:bg-gray-500/30 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
                     <Github size={16} className="text-gray-400" />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-blue-600/20 hover:bg-blue-600/30 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                  <a href="https://www.linkedin.com/in/ashutosh-shrungare/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-600/20 hover:bg-blue-600/30 rounded-lg flex items-center justify-center transition-all duration-300 transform hover:scale-110">
                     <Linkedin size={16} className="text-blue-500" />
                   </a>
                 </div>
