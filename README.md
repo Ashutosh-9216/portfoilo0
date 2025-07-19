@@ -25,11 +25,8 @@ This is my personal **portfolio website** that showcases my projects, skills, ex
 └── README.md
 ```
 
-## 📸 Screenshots
 
-*(Add screenshots if needed. Example below)*
 
-![Portfolio Preview](./public/preview.png)
 
 ## 👨‍💻 About Me
 
